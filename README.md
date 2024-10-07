@@ -18,7 +18,7 @@ Nonlinear state space models and Sequential Monte Carlo
 
 # Example code for the em algorithm on gamma and epsilon (mu is fixed at 0.01) on the kalman filter
 
-´´´Python 
+´´´ Python 
 
 from math import log as log
 num_iter = 100
