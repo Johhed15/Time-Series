@@ -55,8 +55,8 @@ Nonlinear state space models and Sequential Monte Carlo
         sigma_eps = np.sqrt((1/n) * np.sum(smooth.eps_hat**2+smooth.eps_var))
         list_sigma_seas.append(sigma_seas) # appending results
         list_sigma_eps.append(sigma_eps)
-    
-```
+        
+
 
 
 
