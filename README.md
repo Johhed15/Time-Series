@@ -50,7 +50,7 @@ Nonlinear state space models and Sequential Monte Carlo
         smooth = kalman_smoother(y[:800],model,kalle) # run the smoothing function
         # M-step
     
-        d = np.sum((smooth.eta_hat*smooth.eta_hat + smooth.eta_cov), axis=2)[1,1] # getting d from  the matrix with a,b,c,d above
+        d = np.sum((smooth.eta_hat*smooth.eta_hat + smooth.eta_cov), axis=2)[1,1] # getting d from 
         sigma_seas = np.sqrt(d/n) # d devided by n(n) then square root to get standard deviation
         sigma_eps = np.sqrt((1/n) * np.sum(smooth.eps_hat**2+smooth.eps_var))
         list_sigma_seas.append(sigma_seas) # appending results
