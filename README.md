@@ -15,6 +15,7 @@ Nonlinear state space models and Sequential Monte Carlo
 
 ## lab 4
 
+RNN's
 
 # Example code for the em algorithm on gamma and epsilon (mu is fixed at 0.01) on the kalman filter
 
